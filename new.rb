@@ -2,9 +2,9 @@
 class New < Formula
   desc "generate projects from git repositories"
   homepage "https://github.com/divanvisagie/new"
-  url "https://github.com/divanvisagie/new/releases/download/v0.4.0/new_0.4.0_darwin_amd64.tar.gz"
-  version "0.4.0"
-  sha256 "145054422dc7c64940296c34ce5a18053fd45e0a60209bbdea2267438b71d7f0"
+  url "https://github.com/divanvisagie/new/releases/download/v0.4.1/new_0.4.1_darwin_amd64.tar.gz"
+  version "0.4.1"
+  sha256 "497a61ea7b0a5c4fa7a8eedbce1d351c111c7451c1ce86f43bb36f4c44550a1c"
 
   def install
     bin.install "new"
