@@ -1,5 +1,5 @@
 
-class YourProgram < Formula
+class Cgip < Formula
   desc "Terminal client for Chat GPT"
   homepage "https://github.com/divanvisagie/chat-gipity"
   url "https://github.com/divanvisagie/chat-gipity/releases/download/v0.1.2/cgip"
