@@ -5,10 +5,10 @@ class Runify < Formula
   # Dynamically set the URL and SHA256 based on the CPU architecture
   if Hardware::CPU.intel?
     url "https://github.com/divanvisagie/runify/releases/download/test-release/runify-darwin-x86_64.tar.gz"
-    sha256 "5d8bdeb630cf03902360f4fd85eeb302e4e74413a4e00e975bab88cedd49ba78"
+    sha256 "e5095704edcce256e63420094cd31348fb7e9cfa909d0c5fdfbe871338b2ca28"
   elsif Hardware::CPU.arm?
     url "https://github.com/divanvisagie/runify/releases/download/test-release/runify-darwin-aarch64.tar.gz"
-    sha256 "f1172f6c3bc104be5f238cbc374d8b67c17b0aac0ceb35b6f47f165af5b7d6d6"
+    sha256 "dec15b295c4dfaa156458bab5b23d71d14ac412bb51dc1ce57b1b6833d4fc169"
   else
     odie "Your architecture is not supported!"
   end
