@@ -4,11 +4,11 @@ class Cgip < Formula
   
   # Dynamically set the URL and SHA256 based on the CPU architecture
   if Hardware::CPU.intel?
-    url "https://github.com/divanvisagie/chat-gipity/releases/download/v0.2.9/cgip-darwin-x86_64.tar.gz"
-    sha256 "9c319de122e281355a73651785ab1f4409a66154944b0451470e4880eb4e8119"
+    url "https://github.com/divanvisagie/chat-gipity/releases/download/v0.2.10/cgip-darwin-x86_64.tar.gz"
+    sha256 "00d2f34aa7a65fce5eb4af206fc01e5a7fa6ed64d142c5878ba9368f405dc5a5"
   elsif Hardware::CPU.arm?
-    url "https://github.com/divanvisagie/chat-gipity/releases/download/v0.2.9/cgip-darwin-aarch64.tar.gz"
-    sha256 "bd49e108bc0e41b50f614db74d4c54cf1f33c188ab51ca2af730ef5d1a033f9a"
+    url "https://github.com/divanvisagie/chat-gipity/releases/download/v0.2.10/cgip-darwin-aarch64.tar.gz"
+    sha256 "b2b94a908196eeb8efc0861f271c5ffc81e269983dcc4e9a6fe65b009de2f035"
   else
     odie "Your architecture is not supported!"
   end
