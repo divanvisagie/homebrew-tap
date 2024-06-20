@@ -4,11 +4,11 @@ class Nocol < Formula
   
   # Dynamically set the URL and SHA256 based on the CPU architecture
   if Hardware::CPU.intel?
-    url "https://github.com/divanvisagie/nocol/releases/download/v0.0.1/nocol-darwin-x86_64.tar.gz"
-    sha256 "48bd34564560eebc580e72e3c22f8b00f3baa2706269dbf71fc81a7ac051d720"
+    url "https://github.com/divanvisagie/nocol/releases/download/test-release/nocol-darwin-x86_64.tar.gz"
+    sha256 "f851695451a73031b01ade8ac2bd6ac6b9646308fc0c5a97c4a3b3fb528fe515"
   elsif Hardware::CPU.arm?
-    url "https://github.com/divanvisagie/nocol/releases/download/v0.0.1/nocol-darwin-aarch64.tar.gz"
-    sha256 "ff34af98aff61660d7d3b234c2c33a965b9eba8e4a34f1a3201e3dde4c7a3734"
+    url "https://github.com/divanvisagie/nocol/releases/download/test-release/nocol-darwin-aarch64.tar.gz"
+    sha256 "b4c3ab7f314bf73d84f011ba5d44fa0be3a390126cc52c74ccbe834d96de1bcb"
   else
     odie "Your architecture is not supported!"
   end
