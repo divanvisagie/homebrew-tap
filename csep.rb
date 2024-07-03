@@ -4,11 +4,11 @@ class Csep < Formula
   
   # Dynamically set the URL and SHA256 based on the CPU architecture
   if Hardware::CPU.intel?
-    url "https://github.com/divanvisagie/csep/releases/download/v0.1.7/csep-darwin-x86_64.tar.gz"
-    sha256 "0145bc0af8741cbb245e88f204bd184d827b73a6c9f3945bf919fee6ca9d4097"
+    url "https://github.com/divanvisagie/csep/releases/download/v0.1.9/csep-darwin-x86_64.tar.gz"
+    sha256 "a21784036f14d516d77cf084981e0c3aa7d2911b4c85d784e5295705f576007c"
   elsif Hardware::CPU.arm?
-    url "https://github.com/divanvisagie/csep/releases/download/v0.1.7/csep-darwin-aarch64.tar.gz"
-    sha256 "43cc2cbacf03370a9f71c39337342a450b1a2c4bb13541db71a8e1974d7a2e74"
+    url "https://github.com/divanvisagie/csep/releases/download/v0.1.9/csep-darwin-aarch64.tar.gz"
+    sha256 "a4b295b93092bf2d1a0d0376faaa9f482f0a885dcf582c39f733dc395e7254d0"
   else
     odie "Your architecture is not supported!"
   end
