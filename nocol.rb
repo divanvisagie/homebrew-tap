@@ -1,7 +1,7 @@
 class Nocol < Formula
-  desc "Terminal client for Chat GPT"
+  desc "Tool to remove color codes from terminal output"
   homepage "https://github.com/divanvisagie/nocol"
-  
+
   # Dynamically set the URL and SHA256 based on the CPU architecture
   if Hardware::CPU.intel?
     url "https://github.com/divanvisagie/nocol/releases/download/v0.0.3/nocol-darwin-x86_64.tar.gz"

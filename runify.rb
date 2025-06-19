@@ -1,7 +1,7 @@
 class Runify < Formula
-  desc "Terminal client for Chat GPT"
+  desc "Tool to run and manage scripts"
   homepage "https://github.com/divanvisagie/runify"
-  
+
   # Dynamically set the URL and SHA256 based on the CPU architecture
   if Hardware::CPU.intel?
     url "https://github.com/divanvisagie/runify/releases/download/v0.1.0/runify-darwin-x86_64.tar.gz"

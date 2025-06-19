@@ -1,7 +1,7 @@
 class Cgip < Formula
   desc "Terminal client for Chat GPT"
   homepage "https://github.com/divanvisagie/chat-gipity"
-  
+
   # Dynamically set the URL and SHA256 based on the CPU architecture
   if Hardware::CPU.intel?
     url "https://github.com/divanvisagie/chat-gipity/releases/download/v0.5.0/cgip-darwin-x86_64.tar.gz"

@@ -1,7 +1,7 @@
 class Csep < Formula
-  desc "Terminal client for Chat GPT"
+  desc "CSV separator tool for terminal"
   homepage "https://github.com/divanvisagie/csep"
-  
+
   # Dynamically set the URL and SHA256 based on the CPU architecture
   if Hardware::CPU.intel?
     url "https://github.com/divanvisagie/csep/releases/download/v0.1.9/csep-darwin-x86_64.tar.gz"
